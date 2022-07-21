@@ -1,0 +1,12 @@
+[18-Jul-2022 17:54:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function my_Club() in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+Stack trace:
+#0 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php(307): my_plugin_club('')
+#1 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php(461): do_action('plugins_loaded')
+#4 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php(91): require_once('C:\\Users\\Enzoo\\...')
+#5 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php(50): require_once('C:\\Users\\Enzoo\\...')
+#6 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Enzoo\\...')
+#7 C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\Enzoo\\...')
+#8 {main}
+  throw in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php on line 68

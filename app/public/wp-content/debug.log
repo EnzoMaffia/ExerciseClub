@@ -1,0 +1,1269 @@
+[21-Jul-2022 00:19:19 UTC] PHP Fatal error:  Cannot redeclare players_hover() (previously declared in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php:180) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 257
+[21-Jul-2022 00:19:19 UTC] PHP Stack trace:
+[21-Jul-2022 00:19:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:19:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:19:19 UTC] PHP   3. wp() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:16
+[21-Jul-2022 00:19:19 UTC] PHP   4. WP->main() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:1330
+[21-Jul-2022 00:19:19 UTC] PHP   5. WP->parse_request() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp.php:770
+[21-Jul-2022 00:19:19 UTC] PHP   6. do_action_ref_array() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp.php:398
+[21-Jul-2022 00:19:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:524
+[21-Jul-2022 00:19:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:19:19 UTC] PHP   9. rest_api_loaded() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:19:19 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api.php:394
+[21-Jul-2022 00:19:19 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api\class-wp-rest-server.php:414
+[21-Jul-2022 00:19:19 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api\class-wp-rest-server.php:990
+[21-Jul-2022 00:19:19 UTC] PHP  13. WP_REST_Posts_Controller->update_item() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api\class-wp-rest-server.php:1143
+[21-Jul-2022 00:19:19 UTC] PHP  14. WP_REST_Posts_Controller->prepare_item_for_response() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:903
+[21-Jul-2022 00:19:19 UTC] PHP  15. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php:1811
+[21-Jul-2022 00:19:19 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:19:19 UTC] PHP  17. do_shortcode() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:19:19 UTC] PHP  18. preg_replace_callback() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\shortcodes.php:228
+[21-Jul-2022 00:19:19 UTC] PHP  19. do_shortcode_tag() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\shortcodes.php:228
+[21-Jul-2022 00:19:19 UTC] PHP  20. players_shortcode_uru() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\shortcodes.php:356
+[21-Jul-2022 00:21:53 UTC] PHP Warning:  Unterminated comment starting line 361 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 361
+[21-Jul-2022 00:21:53 UTC] PHP Stack trace:
+[21-Jul-2022 00:21:53 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:21:53 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:21:53 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:21:53 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:21:53 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:21:53 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:21:53 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:21:53 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:21:53 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:21:53 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:21:53 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:21:53 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:21:53 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:22:13 UTC] PHP Warning:  Unterminated comment starting line 361 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 361
+[21-Jul-2022 00:22:13 UTC] PHP Stack trace:
+[21-Jul-2022 00:22:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:22:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:22:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:22:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:22:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:22:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:22:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:22:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:22:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:22:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:22:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:22:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:22:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:22:14 UTC] PHP Warning:  Unterminated comment starting line 361 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 361
+[21-Jul-2022 00:22:14 UTC] PHP Stack trace:
+[21-Jul-2022 00:22:14 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:22:14 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:22:14 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:22:14 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:22:14 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:22:14 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:22:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:22:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:22:14 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:22:14 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:22:14 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:22:14 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:22:14 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:22:14 UTC] PHP Warning:  Unterminated comment starting line 361 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 361
+[21-Jul-2022 00:22:14 UTC] PHP Stack trace:
+[21-Jul-2022 00:22:14 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:22:14 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:22:14 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:22:14 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:22:14 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:22:14 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:22:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:22:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:22:14 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:22:14 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:22:14 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:22:14 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:22:14 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:22:20 UTC] PHP Warning:  Unterminated comment starting line 361 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 361
+[21-Jul-2022 00:22:20 UTC] PHP Stack trace:
+[21-Jul-2022 00:22:20 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:22:20 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:22:20 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:22:20 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:22:20 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:22:20 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:22:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:22:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:22:20 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:22:20 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:22:20 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:22:20 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:22:20 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:23:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 234
+[21-Jul-2022 00:23:40 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:40 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:40 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:40 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:40 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:40 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:40 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:40 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:23:40 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:23:40 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:40 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:40 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:40 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:40 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:40 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:40 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:40 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:40 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:23:40 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:23:40 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 234
+[21-Jul-2022 00:23:40 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:40 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:40 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:40 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:40 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:40 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:40 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:40 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:23:40 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:23:40 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:40 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:40 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:40 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:40 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:40 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:40 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:40 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:40 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:23:40 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:23:40 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 234
+[21-Jul-2022 00:23:49 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:49 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:49 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:49 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:49 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:49 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:49 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:49 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:49 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:49 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:49 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:23:49 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:23:49 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:49 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:49 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:49 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:49 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:49 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:49 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:49 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:49 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:49 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:49 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:49 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:23:49 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:23:49 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 234
+[21-Jul-2022 00:23:49 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:49 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:49 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:49 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:49 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:49 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:49 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:49 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:49 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:49 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:49 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:23:49 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:23:49 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:23:49 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:23:49 UTC] PHP Stack trace:
+[21-Jul-2022 00:23:49 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:23:49 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:23:49 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:23:49 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:23:49 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:23:49 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:23:49 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:23:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:23:49 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:23:49 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:23:49 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:23:49 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:24:03 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:03 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:03 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:03 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:03 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:03 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:03 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:03 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:03 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:03 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:03 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:03 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:03 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:03 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:03 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:04 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:04 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:04 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:04 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:04 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:04 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:04 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:04 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:04 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:04 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:04 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:04 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:04 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:04 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:04 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:04 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:04 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:04 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:04 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:04 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:04 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:04 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:04 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:04 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:04 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:04 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:13 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:13 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:13 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:13 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:13 UTC] PHP Warning:  Unterminated comment starting line 363 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 363
+[21-Jul-2022 00:24:13 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:28 UTC] PHP Warning:  Unterminated comment starting line 285 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 285
+[21-Jul-2022 00:24:28 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:28 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:24:28 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:24:28 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:28 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:28 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:28 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:28 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:28 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:28 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:28 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:28 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:28 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:24:39 UTC] PHP Warning:  Unterminated comment starting line 285 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 285
+[21-Jul-2022 00:24:39 UTC] PHP Stack trace:
+[21-Jul-2022 00:24:39 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:24:39 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:24:39 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:24:39 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:24:39 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:24:39 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:24:39 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:24:39 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:24:39 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:24:39 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:24:39 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:24:39 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:24:39 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:26:43 UTC] PHP Warning:  Unterminated comment starting line 285 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 285
+[21-Jul-2022 00:26:43 UTC] PHP Stack trace:
+[21-Jul-2022 00:26:43 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:26:43 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:26:43 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:26:43 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:26:43 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:26:43 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:26:43 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:26:43 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:26:43 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:26:43 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:26:43 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:26:43 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:40:37 UTC] PHP Warning:  Unterminated comment starting line 286 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 286
+[21-Jul-2022 00:40:37 UTC] PHP Stack trace:
+[21-Jul-2022 00:40:37 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:40:37 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:40:37 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:40:37 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:40:37 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:40:37 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:40:37 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:40:37 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:40:37 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:40:37 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:40:37 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:40:37 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:40:38 UTC] PHP Warning:  Unterminated comment starting line 286 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 286
+[21-Jul-2022 00:40:38 UTC] PHP Stack trace:
+[21-Jul-2022 00:40:38 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:40:38 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:40:38 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:40:38 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:40:38 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:40:38 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:40:38 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:40:38 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:40:38 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:40:38 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:40:38 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:40:38 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:40:38 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:24 UTC] PHP Warning:  Unterminated comment starting line 288 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 288
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:24 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:24 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:24 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:24 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:24 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:24 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:24 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:24 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 355
+[21-Jul-2022 00:48:24 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:24 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:24 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:24 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:24 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:24 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:48:24 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:48:24 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:24 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:24 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:24 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:24 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:24 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:24 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:48:24 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:48:24 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:24 UTC] PHP Warning:  Unterminated comment starting line 288 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 288
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:24 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:24 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:24 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:24 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:24 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:24 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:24 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:24 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 355
+[21-Jul-2022 00:48:24 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:24 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:24 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:24 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:24 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:24 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:48:24 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:48:24 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:24 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:24 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:24 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:24 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:24 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:24 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:24 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:24 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:24 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:24 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:48:24 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:48:24 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:33 UTC] PHP Warning:  Unterminated comment starting line 288 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 288
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:33 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:33 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:33 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:33 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:33 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:33 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:33 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:33 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 355
+[21-Jul-2022 00:48:33 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:33 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:33 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:33 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:33 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:33 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:33 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:48:33 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:48:33 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:33 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:33 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:33 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:33 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:33 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:33 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:33 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:48:33 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:48:33 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:33 UTC] PHP Warning:  Unterminated comment starting line 288 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 288
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:33 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:33 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:33 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:33 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:33 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:33 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:33 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:33 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:33 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 355
+[21-Jul-2022 00:48:33 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:33 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:33 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:33 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:33 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:33 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:33 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:48:33 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:48:33 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:33 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:48:33 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:33 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:48:33 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:48:33 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:48:33 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:48:33 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:48:33 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:48:33 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:48:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:48:33 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:33 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:48:33 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:48:33 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:48:46 UTC] PHP Warning:  Unterminated comment starting line 289 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 289
+[21-Jul-2022 00:48:46 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:46 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:46 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:46 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:46 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:46 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:46 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:46 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:46 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:46 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:46 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:46 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:46 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:46 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:46 UTC] PHP Warning:  Unterminated comment starting line 289 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 289
+[21-Jul-2022 00:48:46 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:46 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:46 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:46 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:46 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:46 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:46 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:46 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:46 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:46 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:46 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:46 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:46 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:46 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:48:46 UTC] PHP Warning:  Unterminated comment starting line 289 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 289
+[21-Jul-2022 00:48:46 UTC] PHP Stack trace:
+[21-Jul-2022 00:48:46 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:48:46 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:48:46 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:48:46 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:48:46 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:48:46 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:48:46 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:48:46 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:48:46 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:48:46 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:48:46 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:48:46 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:48:46 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:49:19 UTC] PHP Warning:  Unterminated comment starting line 289 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 289
+[21-Jul-2022 00:49:19 UTC] PHP Stack trace:
+[21-Jul-2022 00:49:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:49:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:49:19 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:49:19 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:49:19 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:49:19 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:49:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:49:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:49:19 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:49:19 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:49:19 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:49:19 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:49:19 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:50:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:50:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:50:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:50:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:50:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:50:30 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:50:30 UTC] PHP Stack trace:
+[21-Jul-2022 00:50:30 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:50:30 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:50:30 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:50:30 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:50:30 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:50:30 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:50:30 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:50:30 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:50:30 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:50:30 UTC] PHP  10. is_embed() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:93
+[21-Jul-2022 00:50:30 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:881
+[21-Jul-2022 00:50:30 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:50:30 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php on line 5831
+[21-Jul-2022 00:50:30 UTC] PHP Stack trace:
+[21-Jul-2022 00:50:30 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[21-Jul-2022 00:50:30 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[21-Jul-2022 00:50:30 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:153
+[21-Jul-2022 00:50:30 UTC] PHP   4. wp_die() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-fatal-error-handler.php:234
+[21-Jul-2022 00:50:30 UTC] PHP   5. _default_wp_die_handler() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3713
+[21-Jul-2022 00:50:30 UTC] PHP   6. wp_robots() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:3789
+[21-Jul-2022 00:50:30 UTC] PHP   7. apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:32
+[21-Jul-2022 00:50:30 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:191
+[21-Jul-2022 00:50:30 UTC] PHP   9. wp_robots_noindex_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:50:30 UTC] PHP  10. is_search() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\robots-template.php:119
+[21-Jul-2022 00:50:30 UTC] PHP  11. _doing_it_wrong() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\query.php:699
+[21-Jul-2022 00:50:30 UTC] PHP  12. trigger_error() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\functions.php:5831
+[21-Jul-2022 00:50:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 281
+[21-Jul-2022 00:51:06 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:51:06 UTC] PHP Stack trace:
+[21-Jul-2022 00:51:06 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:51:06 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:51:06 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:51:06 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:51:06 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:51:06 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:51:06 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:51:06 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:51:06 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:51:06 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:51:06 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:51:06 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:51:08 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:51:08 UTC] PHP Stack trace:
+[21-Jul-2022 00:51:08 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:51:08 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:51:08 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:51:08 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:51:08 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:51:08 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:51:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:51:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:51:08 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:51:08 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:51:08 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:51:08 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:51:08 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:56:24 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:56:24 UTC] PHP Stack trace:
+[21-Jul-2022 00:56:24 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:56:24 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:56:24 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:56:24 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:56:24 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:56:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:56:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:56:24 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:56:24 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:56:24 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:56:24 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:56:24 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:59:11 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:59:11 UTC] PHP Stack trace:
+[21-Jul-2022 00:59:11 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 00:59:11 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 00:59:11 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:59:11 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:59:11 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:59:11 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:59:11 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:59:11 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:59:11 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:59:11 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:59:11 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:59:11 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:59:13 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:59:13 UTC] PHP Stack trace:
+[21-Jul-2022 00:59:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:59:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:59:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:59:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:59:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:59:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:59:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:59:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:59:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:59:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:59:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:59:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:59:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 00:59:46 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 00:59:46 UTC] PHP Stack trace:
+[21-Jul-2022 00:59:46 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 00:59:46 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 00:59:46 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 00:59:46 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 00:59:46 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 00:59:46 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 00:59:46 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 00:59:46 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 00:59:46 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 00:59:46 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 00:59:46 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 00:59:46 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 00:59:46 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:13 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:13 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:13 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:13 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:13 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:13 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:13 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:13 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:13 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:13 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:13 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:13 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:13 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:13 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:13 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:14 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:14 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:14 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:14 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:14 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:14 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:14 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:14 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:14 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:14 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:14 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:14 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:14 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:14 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:43 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:43 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:43 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:43 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:43 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:43 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:43 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:43 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:43 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:43 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:43 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:43 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:43 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:43 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:43 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:43 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:43 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:43 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:43 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:43 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:43 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:43 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:43 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:43 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:43 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:43 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:43 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:43 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:43 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:43 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:43 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:43 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:43 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:43 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:43 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:43 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:43 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:43 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:43 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:00:45 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:00:45 UTC] PHP Stack trace:
+[21-Jul-2022 01:00:45 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:00:45 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:00:45 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:00:45 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:00:45 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:00:45 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:00:45 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:00:45 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:00:45 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:00:45 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:00:45 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:00:45 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:00:45 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:05:45 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:05:45 UTC] PHP Stack trace:
+[21-Jul-2022 01:05:45 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 01:05:45 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 01:05:45 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:05:45 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:05:45 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:05:45 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:05:45 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:05:45 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:05:45 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:05:45 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:05:45 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:05:45 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:06:19 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:06:19 UTC] PHP Stack trace:
+[21-Jul-2022 01:06:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:06:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:06:19 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:06:19 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:06:19 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:06:19 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:06:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:06:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:06:19 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:06:19 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:06:19 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:06:19 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:06:19 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:06:20 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:06:20 UTC] PHP Stack trace:
+[21-Jul-2022 01:06:20 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:06:20 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:06:20 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:06:20 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:06:20 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:06:20 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:06:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:06:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:06:20 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:06:20 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:06:20 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:06:20 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:06:20 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:12:03 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:12:03 UTC] PHP Stack trace:
+[21-Jul-2022 01:12:03 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:12:03 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:12:03 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:12:03 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:12:03 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:12:03 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:12:03 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:12:03 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:12:03 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:12:03 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:12:03 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:12:03 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:12:03 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:12:57 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:12:57 UTC] PHP Stack trace:
+[21-Jul-2022 01:12:57 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:12:57 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:12:57 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:12:57 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:12:57 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:12:57 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:12:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:12:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:12:57 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:12:57 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:12:57 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:12:57 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:12:57 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:12:57 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:12:57 UTC] PHP Stack trace:
+[21-Jul-2022 01:12:57 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:12:57 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:12:57 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:12:57 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:12:57 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:12:57 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:12:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:12:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:12:57 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:12:57 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:12:57 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:12:57 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:12:57 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:12:58 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:12:58 UTC] PHP Stack trace:
+[21-Jul-2022 01:12:58 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:12:58 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:12:58 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:12:58 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:12:58 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:12:58 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:12:58 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:12:58 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:12:58 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:12:58 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:12:58 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:12:58 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:12:58 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:13:56 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:13:56 UTC] PHP Stack trace:
+[21-Jul-2022 01:13:56 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:13:56 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:13:56 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:13:56 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:13:56 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:13:56 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:13:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:13:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:13:56 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:13:56 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:13:56 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:13:56 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:13:56 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:13:56 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:13:56 UTC] PHP Stack trace:
+[21-Jul-2022 01:13:56 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:13:56 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:13:56 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:13:56 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:13:56 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:13:56 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:13:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:13:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:13:56 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:13:56 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:13:56 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:13:56 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:13:56 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:13:57 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:13:57 UTC] PHP Stack trace:
+[21-Jul-2022 01:13:57 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:13:57 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:13:57 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:13:57 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:13:57 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:13:57 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:13:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:13:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:13:57 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:13:57 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:13:57 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:13:57 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:13:57 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:15:20 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:15:20 UTC] PHP Stack trace:
+[21-Jul-2022 01:15:20 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:15:20 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:15:20 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:15:20 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:15:20 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:15:20 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:15:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:15:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:15:20 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:15:20 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:15:20 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:15:20 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:15:20 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:15:20 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:15:20 UTC] PHP Stack trace:
+[21-Jul-2022 01:15:20 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:15:20 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:15:20 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:15:20 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:15:20 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:15:20 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:15:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:15:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:15:20 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:15:20 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:15:20 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:15:20 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:15:20 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:15:20 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:15:20 UTC] PHP Stack trace:
+[21-Jul-2022 01:15:20 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:15:20 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:15:20 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:15:20 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:15:20 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:15:20 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:15:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:15:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:15:20 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:15:20 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:15:20 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:15:20 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:15:20 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:15:23 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:15:23 UTC] PHP Stack trace:
+[21-Jul-2022 01:15:23 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 01:15:23 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 01:15:23 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:15:23 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:15:23 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:15:23 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:15:23 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:15:23 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:15:23 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:15:23 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:15:23 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:15:23 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:10 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:10 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:10 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:10 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:10 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:10 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:10 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:10 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:10 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:10 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:10 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:10 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:10 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:23 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:23 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:23 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:23 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:23 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:23 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:23 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:23 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:23 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:23 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:23 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:23 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:23 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:23 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:23 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:24 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:24 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:24 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:24 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:24 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:24 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:24 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:24 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:24 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:24 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:24 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:24 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:24 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:54 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:54 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:54 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:54 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:54 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:54 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:54 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:54 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:54 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:54 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:54 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:54 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:54 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:54 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:54 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:54 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:54 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:54 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:54 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:54 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:54 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:54 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:54 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:54 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:54 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:54 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:54 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:54 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:16:54 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:16:54 UTC] PHP Stack trace:
+[21-Jul-2022 01:16:54 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:16:54 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:16:54 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:16:54 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:16:54 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:16:54 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:16:54 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:16:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:16:54 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:16:54 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:16:54 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:16:54 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:16:54 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:05 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:05 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:05 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:05 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:05 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:05 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:05 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:05 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:05 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:05 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:05 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:05 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:05 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:05 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:05 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:05 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:05 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:05 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:05 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:05 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:05 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:05 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:05 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:05 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:05 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:05 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:05 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:05 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:05 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:05 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:05 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:05 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:05 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:05 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:05 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:05 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:05 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:05 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:05 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:19 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:19 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:19 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:19 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:19 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:19 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:19 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:19 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:19 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:19 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:19 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:19 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:19 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:19 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:19 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:19 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:19 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:19 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:19 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:19 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:19 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:19 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:19 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:19 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:19 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:19 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:19 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:19 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:19 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:19 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:19 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:19 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:19 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:19 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:19 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:19 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:19 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:24 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:24 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:24 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:0
+[21-Jul-2022 01:17:24 UTC] PHP   2. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-admin\admin-ajax.php:22
+[21-Jul-2022 01:17:24 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:24 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:24 UTC] PHP   5. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:24 UTC] PHP   8. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:24 UTC] PHP   9. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:24 UTC] PHP  10. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:24 UTC] PHP  11. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:24 UTC] PHP  12. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:29 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:29 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:29 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:29 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:29 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:29 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:29 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:29 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:29 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:29 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:29 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:29 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:29 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:29 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:29 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:29 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:29 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:29 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:29 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:29 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:29 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:29 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:29 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:29 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:29 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:29 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:29 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:29 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:29 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:29 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
+[21-Jul-2022 01:17:30 UTC] PHP Warning:  Unterminated comment starting line 287 in C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-yith-frontend-em.php on line 287
+[21-Jul-2022 01:17:30 UTC] PHP Stack trace:
+[21-Jul-2022 01:17:30 UTC] PHP   1. {main}() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:0
+[21-Jul-2022 01:17:30 UTC] PHP   2. require() C:\Users\Enzoo\Local Sites\clubs\app\public\index.php:17
+[21-Jul-2022 01:17:30 UTC] PHP   3. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-blog-header.php:13
+[21-Jul-2022 01:17:30 UTC] PHP   4. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-load.php:50
+[21-Jul-2022 01:17:30 UTC] PHP   5. require_once() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-config.php:94
+[21-Jul-2022 01:17:30 UTC] PHP   6. do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-settings.php:461
+[21-Jul-2022 01:17:30 UTC] PHP   7. WP_Hook->do_action() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\plugin.php:476
+[21-Jul-2022 01:17:30 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:331
+[21-Jul-2022 01:17:30 UTC] PHP   9. my_plugin_club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-includes\class-wp-hook.php:307
+[21-Jul-2022 01:17:30 UTC] PHP  10. my_Club() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\init.php:68
+[21-Jul-2022 01:17:30 UTC] PHP  11. My_Club::get_instance() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:159
+[21-Jul-2022 01:17:30 UTC] PHP  12. My_Club->__construct() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:48
+[21-Jul-2022 01:17:30 UTC] PHP  13. My_Club->_require() C:\Users\Enzoo\Local Sites\clubs\app\public\wp-content\plugins\Yith-plugin-club\includes\class-plugin-club-em.php:78
